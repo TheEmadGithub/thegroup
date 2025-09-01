@@ -1,6 +1,0 @@
-{
-    "intelephense.environment.documentRoot": "",
-    "intelephense.environment.includePaths": [
-        "../wp-google-maps"
-    ]
-}
