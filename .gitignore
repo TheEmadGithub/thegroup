@@ -1,0 +1,7 @@
+*
+!wp-content/
+!wp-config.php
+!.htaccess
+!*.sql
+!.gitignore
+
