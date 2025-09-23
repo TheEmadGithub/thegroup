@@ -126,6 +126,7 @@
                     data-id="ad74609" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
                         <p class="elementor-heading-title elementor-size-default"><?php echo get_field('value_title');?></p>
+                        <p class="value_description"><?php echo get_field('value_description');?></p>
                     </div>
                 </div>
                 <div class="elementor-element elementor-element-4b31acc elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -157,16 +158,28 @@
     </div>
     <div class="ceo-area elementor-element elementor-element-5210127 e-flex e-con-boxed e-con e-parent" data-id="5210127"
         data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-        <div class="e-con-inner">
+        <div class="pb-0 pb-3 e-con-inner">
+                    <div class="p-0 elementor-element elementor-element-4c270e8 e-con-full e-flex e-con e-child" data-id="4c270e8"
+                        data-element_type="container">
+                        <div class="elementor-element elementor-element-526d6e4 elementor-widget elementor-widget-heading"
+                            data-id="526d6e4" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <p class="elementor-heading-title elementor-size-default"><?php echo get_field('ceo_title');?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div class="pt-0 e-con-inner">
             <div class="elementor-element elementor-element-4c270e8 e-con-full e-flex e-con e-child" data-id="4c270e8"
                 data-element_type="container">
-                <div class="elementor-element elementor-element-526d6e4 elementor-widget elementor-widget-heading"
+                
+                <div class="d-none elementor-element elementor-element-526d6e4 elementor-widget elementor-widget-heading"
                     data-id="526d6e4" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
                         <p class="elementor-heading-title elementor-size-default"><?php echo get_field('ceo_title');?></p>
                     </div>
                 </div>
-                <div class="elementor-element elementor-element-26c7a95 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                <div class="d-none elementor-element elementor-element-26c7a95 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
                     data-id="26c7a95" data-element_type="widget" data-widget_type="divider.default">
                     <div class="elementor-widget-container">
                         <div class="elementor-divider">
@@ -185,7 +198,7 @@
             <div class="elementor-element elementor-element-d269441 e-con-full e-flex e-con e-child" data-id="d269441"
                 data-element_type="container">
                 <div class="elementor-element elementor-element-dc70157 elementor-widget elementor-widget-text-editor"
-                    data-id="dc70157" data-element_type="widget" data-widget_type="text-editor.default">
+                    data-id="dc70157" data-element_type="widget" >
                     <div class="elementor-widget-container">
                         <div class="wpb_column vc_column_container vc_col-sm-4">
                             <div class="vc_column-inner">
@@ -204,7 +217,7 @@
             <div class="elementor-element elementor-element-bb3f919 e-con-full e-flex e-con e-child" data-id="bb3f919"
                 data-element_type="container">
                 <div class="elementor-element elementor-element-b8e1b97 elementor-widget elementor-widget-text-editor"
-                    data-id="b8e1b97" data-element_type="widget" data-widget_type="text-editor.default">
+                    data-id="b8e1b97" data-element_type="widget" >
                     <div class="elementor-widget-container">
                         <?php echo get_field('ceo_last_text');?>
                     </div>

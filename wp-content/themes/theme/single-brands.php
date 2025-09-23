@@ -95,7 +95,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-6c8d2b10 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+						<div class="d-none elementor-element elementor-element-6c8d2b10 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
 							data-id="6c8d2b10" data-element_type="widget" data-widget_type="divider.default">
 							<div class="elementor-widget-container">
 								<div class="elementor-divider">
@@ -115,7 +115,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="elementor-section elementor-top-section elementor-element elementor-element-337ef60 elementor-section-full_width elementor-section-items-stretch elementor-section-content-middle elementor-section-stretched elementor-section-height-min-height elementor-hidden-tablet elementor-hidden-mobile elementor-section-height-default"
+		<section class="d-none elementor-section elementor-top-section elementor-element elementor-element-337ef60 elementor-section-full_width elementor-section-items-stretch elementor-section-content-middle elementor-section-stretched elementor-section-height-min-height elementor-hidden-tablet elementor-hidden-mobile elementor-section-height-default"
 			data-id="337ef60" data-element_type="section"
 			data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
 			<div class="elementor-container elementor-column-gap-no">

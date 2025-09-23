@@ -308,3 +308,10 @@ function check_customer_points() {
         wp_send_json_error('No data found for this customer ID.');
     }
 }
+add_action('template_redirect', function() {
+    // إذا كان الأرشيف الخاص بالـ Custom Post Type "brands"
+    if (is_post_type_archive('brands')) {
+        wp_redirect(home_url('/')); // رجّع للهوم
+        exit;
+    }
+});

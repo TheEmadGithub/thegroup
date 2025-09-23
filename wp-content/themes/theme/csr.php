@@ -27,7 +27,7 @@
                             <p class="elementor-heading-title elementor-size-default"><?php echo get_field('main_title');?></p>
                         </div>
                     </div>
-                    <div class="elementor-element elementor-element-5d70cca elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                    <div class="d-none elementor-element elementor-element-5d70cca elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
                         data-id="5d70cca" data-element_type="widget" data-widget_type="divider.default">
                         <div class="elementor-widget-container">
                             <div class="elementor-divider">

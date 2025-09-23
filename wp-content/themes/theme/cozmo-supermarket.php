@@ -10,7 +10,13 @@
 	<section
 		class=" elementor-section elementor-top-section elementor-element elementor-element-7646321f elementor-section-height-min-height elementor-section-items-bottom elementor-section-stretched elementor-section-full_width elementor-section-height-default"
 		data-id="7646321f" data-element_type="section"
-		data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;video&quot;,&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;background_video_link&quot;:&quot;https:\/\/www.thegroup.jo\/wp-content\/uploads\/2020\/10\/Cozmo.webm&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}"
+data-settings='{
+  "stretch_section":"section-stretched",
+  "background_background":"video",
+  "background_motion_fx_devices":["desktop"],
+  "background_video_link":"<?php echo esc_url( get_field("video") ); ?>",
+  "background_play_on_mobile":"yes"
+}'
 		style="width: 1903px; left: 0px;">
 		<div class="elementor-background-video-container">
 			<video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline=""
@@ -48,7 +54,7 @@
 				<div class="elementor-widget-wrap elementor-element-populated">
 					<div class="elementor-element elementor-element-5341e382 elementor-widget elementor-widget-image"
 						data-id="5341e382" data-element_type="widget" data-widget_type="image.default">
-						<div class="elementor-widget-container"> <img decoding="async" width="226" height="69" src="<?php bloginfo('template_directory');?>/assets/media/colored_cozmo.svg" class="attachment-full size-full wp-image-1378" alt=""> </div>
+						<div class="elementor-widget-container"> <img decoding="async" width="226" height="69" src="<?php echo get_field('feature_image');?>" class="attachment-full size-full wp-image-1378" alt=""> </div>
 					</div>
 					<div class="elementor-element elementor-element-317a8883 elementor-hidden-mobile elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
 						data-id="317a8883" data-element_type="widget" data-widget_type="social-icons.default">
@@ -102,7 +108,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="elementor-element elementor-element-22ec087a elementor-widget-divider--view-line elementor-widget elementor-widget-divider mb-0"
+					<div class="d-none elementor-element elementor-element-22ec087a elementor-widget-divider--view-line elementor-widget elementor-widget-divider mb-0"
 						data-id="22ec087a" data-element_type="widget" data-widget_type="divider.default">
 						<div class="elementor-widget-container">
 							<div class="elementor-divider">
@@ -154,7 +160,7 @@
 											<h2 class="elementor-heading-title elementor-size-default"><?php echo get_sub_field('title'); ?></h2>
 										</div>
 									</div>
-									<div class="elementor-element elementor-element-28e9fd03 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+									<div class="d-none elementor-element elementor-element-28e9fd03 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
 										data-id="28e9fd03" data-element_type="widget" data-widget_type="divider.default">
 										<div class="elementor-widget-container">
 											<div class="elementor-divider">
@@ -188,11 +194,11 @@
 												<h2 class="elementor-heading-title elementor-size-default"><?php echo get_sub_field('title'); ?></h2>
 											</div>
 										</div>
-										<div class="elementor-element elementor-element-3620be74 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+										<div class="d-none elementor-element elementor-element-3620be74 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
 											data-id="3620be74" data-element_type="widget" data-widget_type="divider.default">
 											<div class="elementor-widget-container">
 												<div class="elementor-divider">
-													<span class="elementor-divider-separator">
+													<span class="elementor-divider-separator ">
 													</span>
 												</div>
 											</div>
@@ -233,6 +239,12 @@
 		data-id="7a346a74" data-element_type="section"
 		data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 		<div class="elementor-container elementor-column-gap-no">
+			<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-20029e34 map-div"
+				data-id="20029e34" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+					<?php echo do_shortcode('[wpgmza id="1"]'); ?>
+				</div>
+			</div>
 			<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5f210fe7"
 				data-id="5f210fe7" data-element_type="column">
 				<div class="elementor-widget-wrap elementor-element-populated">
@@ -249,7 +261,7 @@
 							<h2 class="elementor-heading-title elementor-size-default"><?php echo get_field('last_section_title'); ?></h2>
 						</div>
 					</div>
-					<div class="elementor-element elementor-element-31d05d7c elementor-widget-divider--view-line elementor-widget elementor-widget-divider mb-0"
+					<div class="d-none elementor-element elementor-element-31d05d7c elementor-widget-divider--view-line elementor-widget elementor-widget-divider mb-0"
 						data-id="31d05d7c" data-element_type="widget" data-widget_type="divider.default">
 						<div class="elementor-widget-container">
 							<div class="elementor-divider">
@@ -267,12 +279,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-20029e34 map-div"
-				data-id="20029e34" data-element_type="column">
-				<div class="elementor-widget-wrap elementor-element-populated">
-					<?php echo do_shortcode('[wpgmza id="1"]'); ?>
-				</div>
-			</div>
+			
 		</div>
 	</section>
 	<!-- download -->
@@ -291,7 +298,7 @@
 							<h2 class="elementor-heading-title elementor-size-default"><?php echo get_field('download_section_title'); ?></h2>
 						</div>
 					</div>
-					<div class="elementor-element elementor-element-52a48446 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+					<div class="d-none elementor-element elementor-element-52a48446 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
 						data-id="52a48446" data-element_type="widget" data-widget_type="divider.default">
 						<div class="elementor-widget-container">
 							<div class="elementor-divider">

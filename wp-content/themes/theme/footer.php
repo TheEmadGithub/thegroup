@@ -28,7 +28,7 @@
 											</h2>
 										</div>
 									</div>
-									<div class="elementor-element elementor-element-99751e5 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+									<div class="d-none elementor-element elementor-element-99751e5 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
 										data-id="99751e5" data-element_type="widget" data-widget_type="divider.default">
 										<div class="elementor-widget-container">
 											<div class="elementor-divider">
@@ -71,7 +71,7 @@
 													<?php if (get_field('phone')): ?>
 													<li class="elementor-icon-list-item">
 														<a href="tel:<?php echo get_field('phone'); ?>">
-															<span class="elementor-icon-list-icon">
+															<span class=" elementor-icon-list-icon">
 																<svg aria-hidden="true"
 																	class="e-font-icon-svg e-fas-phone-alt"
 																	viewbox="0 0 512 512"
@@ -88,7 +88,7 @@
 													<?php if (get_field('fax')): ?>
 													<li class="elementor-icon-list-item">
 														<a href="tel:<?php echo get_field('fax'); ?>">
-															<span class="elementor-icon-list-icon">
+															<span class=" elementor-icon-list-icon">
 																<svg aria-hidden="true" class="e-font-icon-svg e-fas-fax"
 																	viewbox="0 0 512 512"
 																	xmlns="http://www.w3.org/2000/svg">
@@ -106,7 +106,7 @@
 													<?php if (get_field('email')): ?>
 													<li class="elementor-icon-list-item">
 														<a href="mailto:<?php echo get_field('email'); ?>">
-															<span class="elementor-icon-list-icon">
+															<span class=" elementor-icon-list-icon">
 																<svg aria-hidden="true"
 																	class="e-font-icon-svg e-fas-envelope-open"
 																	viewbox="0 0 512 512"
@@ -125,7 +125,7 @@
 													<?php if (get_field('location')): ?>
 													<li class="elementor-icon-list-item">
 														<a href="https://goo.gl/maps/QzeZa51fVrxgqztn7">
-															<span class="elementor-icon-list-icon">
+															<span class=" elementor-icon-list-icon">
 																<svg aria-hidden="true"
 																	class="e-font-icon-svg e-fas-mail-bulk"
 																	viewbox="0 0 576 512"
@@ -174,6 +174,31 @@
 													class="attachment-medium_large size-medium_large wp-image-1245"
 													alt=""> </a>
 										</div>
+										
+											<div class="footer-clients">
+													<div class="footer-image-div">
+														<a href="<?php the_permalink(37); ?>" >
+															<img loading="lazy" decoding="async" width="1182" height="769"
+																src="<?php echo get_field('client_logo',37); ?>"
+																class="attachment-full size-full wp-image-1283" alt=""> 
+														</a> 
+													</div>
+												<?php
+													$args = array('post_type' => 'brands','posts_per_page' => -1);
+													$loop = new wp_query($args);
+													if($loop->have_posts()) { 
+												?>
+													<?php while($loop->have_posts()) { $loop->the_post();?>
+														<div class="footer-image-div">
+															<a href="<?php the_permalink(); ?>" >
+																<img loading="lazy" decoding="async" width="1182" height="769"
+																	src="<?php echo get_field('client_logo'); ?>"
+																	class="attachment-full size-full wp-image-1283" alt=""> 
+															</a> 
+														</div>
+													<?php } ?>
+                            					<?php }; wp_reset_query(); ?>
+											</div>
 									</div>
 								</div>
 							</div>
@@ -184,12 +209,8 @@
 										data-id="8ff6301" data-element_type="widget"
 										data-widget_type="text-editor.default">
 										<div class="elementor-widget-container">
-											© <?php 
-											$current_year = date('Y');
-											echo $current_year; 
-												?> All Rights Reserved &#8211; <a href="<?php echo site_url(); ?>">THE
-												Group
-												Jordan</a> </div>
+											
+										</div>
 									</div>
 								</div>
 							</div>
@@ -199,6 +220,17 @@
 									<div class="elementor-element elementor-element-9ce36d1 elementor-widget elementor-widget-heading"
 										data-id="9ce36d1" data-element_type="widget" data-widget_type="heading.default">
 										<div class="elementor-widget-container">
+											<div class="elementor-element elementor-element-8ff6301 elementor-widget elementor-widget-text-editor"
+										data-id="8ff6301" data-element_type="widget"
+										data-widget_type="text-editor.default">
+										<div class="elementor-widget-container">
+											© <?php 
+											$current_year = date('Y');
+											echo $current_year; 
+												?> All Rights Reserved &#8211; <a href="<?php echo site_url(); ?>">THE
+												Group
+												Jordan</a> </div>
+									</div>
 											<p class="elementor-heading-title elementor-size-default"><a
 													href="https://josequal.com/">A Website by Josequal</a></p>
 										</div>

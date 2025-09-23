@@ -121,7 +121,7 @@ class="home page-template page-template-elementor_header_footer page page-id-230
                         </div>
                     </div>
                     <!-- search-not-done -->
-                    <div class="elementor-element elementor-element-5152999 elementor-search-form--skin-full_screen elementor-widget elementor-widget-search-form"
+                    <div class="d-none elementor-element elementor-element-5152999 elementor-search-form--skin-full_screen elementor-widget elementor-widget-search-form"
                         data-id="5152999" data-element_type="widget"
                         data-settings="{&quot;skin&quot;:&quot;full_screen&quot;}"
                         data-widget_type="search-form.default">

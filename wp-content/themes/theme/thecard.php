@@ -8,7 +8,7 @@
 	data-elementor-settings="{&quot;element_pack_global_tooltip_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}"
 	data-elementor-post-type="page">
     <section
-						class="elementor-section elementor-inner-section elementor-element elementor-element-87aa151 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+						class="d-none elementor-section elementor-inner-section elementor-element elementor-element-87aa151 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 						data-id="87aa151" data-element_type="section"
 						data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
@@ -20,7 +20,7 @@
 						</div>
 					</section>
 	<section
-		class="elementor-section elementor-top-section elementor-element elementor-element-b4de50b elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+		class="custom-elementor-section elementor-section elementor-top-section elementor-element elementor-element-b4de50b elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 		data-id="b4de50b" data-element_type="section"
 		data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
 		<div class="elementor-container elementor-column-gap-wider">
@@ -63,6 +63,12 @@
 							<?php echo get_field('points_content'); ?>
 						</div>
 					</div>
+					
+				</div>
+			</div>
+			<div class="elementor-column  elementor-top-column elementor-element elementor-element-d2dd7b55"
+				data-id="d2dd7b3" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
 					<div class="elementor-element elementor-element-c85460b elementor-widget elementor-widget-heading"
 						data-id="c85460b" data-element_type="widget" data-widget_type="heading.default">
 						<div class="elementor-widget-container">
