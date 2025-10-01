@@ -24,27 +24,13 @@
 		data-id="b4de50b" data-element_type="section"
 		data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
 		<div class="elementor-container elementor-column-gap-wider">
-			<div class="mt-5- elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ffa2c93"
+			<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ffa2c93"
 				data-id="ffa2c93" data-element_type="column">
 				<div class="elementor-widget-wrap elementor-element-populated">
 					<div class="elementor-element elementor-element-ec7ecb8 elementor-widget elementor-widget-text-editor"
 						data-id="ec7ecb8" data-element_type="widget" data-widget_type="text-editor.default">
 						<div class="elementor-widget-container"><?php echo get_field('main_description'); ?> </div>
-						<div class="mt-4 elementor-element elementor-element-19bffb3b elementor-widget elementor-widget-heading"
-							data-id="19bffb2b" data-element_type="widget" data-widget_type="heading.default">
-							<div class="elementor-widget-container">
-								<h2 class="elementor-heading-title elementor-size-default"><?php echo get_field('points_title');?></h2>
-							</div>
-						</div>
-						<div class="elementor-widget-container"><?php echo get_field('points_content'); ?> </div>
 					</div>
-				</div>
-				
-				
-			</div>
-			<div class="mt-5- elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d2dd7b3"
-				data-id="d2dd7b3" data-element_type="column">
-				<div class="elementor-widget-wrap elementor-element-populated">
 					<div class="elementor-element elementor-element-96a091f elementor-widget elementor-widget-image"
 						data-id="96a091f" data-element_type="widget" data-widget_type="image.default">
 						<div class="elementor-widget-container">
@@ -60,43 +46,41 @@
 							 </div>
 							 
 					</div>
-					
 				</div>
 			</div>
-			<div class="mt-5 elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ffa2c933"
-				data-id="ffa2c93" data-element_type="column">
-				<div class="elementor-widget-wrap elementor-element-populated">
-					<div class="elementor-element elementor-element-ec7ecb8 elementor-widget elementor-widget-text-editor"
-						data-id="ec7ecb8" data-element_type="widget" data-widget_type="text-editor.default">
-						<div class="elementor-element elementor-element-19bffb3b elementor-widget elementor-widget-heading"
-							data-id="19bffb2b" data-element_type="widget" data-widget_type="heading.default">
-							<div class="elementor-widget-container">
-								<h2 class="elementor-heading-title elementor-size-default"><?php echo get_field('other_benefits_title');?></h2>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ffa2c93"
-				data-id="ffa2c93" data-element_type="column">
-				<div class="elementor-widget-wrap elementor-element-populated">
-					<div class="elementor-element elementor-element-ec7ecb8 elementor-widget elementor-widget-text-editor"
-						data-id="ec7ecb8" data-element_type="widget" data-widget_type="text-editor.default">
-						<div class="elementor-widget-container"><?php echo get_field('other_benefits_content'); ?> </div>
-					</div>
-				</div>
-			</div>
-			<div class="mob-mt elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d2dd7b3"
+			<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d2dd7b3"
 				data-id="d2dd7b3" data-element_type="column">
 				<div class="elementor-widget-wrap elementor-element-populated">
-					
+					<div class="elementor-element elementor-element-4cc30a6 elementor-widget elementor-widget-heading"
+						data-id="4cc30a6" data-element_type="widget" data-widget_type="heading.default">
+						<div class="elementor-widget-container">
+							<h4 class="elementor-heading-title elementor-size-default"><?php echo get_field('points_title'); ?></h4>
+						</div>
+					</div>
 					<div class="elementor-element elementor-element-88db37b elementor-widget elementor-widget-text-editor"
 						data-id="88db37b" data-element_type="widget" data-widget_type="text-editor.default">
 						<div class="elementor-widget-container">
-							<?php echo get_field('assestant'); ?>
+							<?php echo get_field('points_content'); ?>
 						</div>
 					</div>
 					
+				</div>
+			</div>
+			<div class="elementor-column  elementor-top-column elementor-element elementor-element-d2dd7b55"
+				data-id="d2dd7b3" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-element elementor-element-c85460b elementor-widget elementor-widget-heading"
+						data-id="c85460b" data-element_type="widget" data-widget_type="heading.default">
+						<div class="elementor-widget-container">
+							<h4 class="elementor-heading-title elementor-size-default"><?php echo get_field('other_benefits_title'); ?></h4>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-c55daad elementor-widget elementor-widget-text-editor"
+						data-id="c55daad" data-element_type="widget" data-widget_type="text-editor.default">
+						<div class="elementor-widget-container">
+						<?php echo get_field('other_benefits_content'); ?>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

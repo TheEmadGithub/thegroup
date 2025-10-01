@@ -9,20 +9,7 @@
     <div class="elementor-element elementor-element-30f2b8c e-flex e-con-boxed e-con e-parent" data-id="30f2b8c"
         data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div class="e-con-inner ">
-            <div style="background-image: url(<?php echo get_field('first_section_image');?>);"
-                class="elementor-element elementor-element-0b724c1 elementor-hidden-tablet elementor-hidden-mobile e-con-full e-flex e-con e-child"
-                data-id="0b724c1" data-element_type="container"
-                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2.5,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}}}">
-                <div class="elementor-element elementor-element-4d27899 elementor-widget elementor-widget-spacer"
-                    data-id="4d27899" data-element_type="widget" data-widget_type="spacer.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="elementor-element elementor-element-692255d e-con-full e-flex e-con e-child" data-id="692255d"
+        <div class="elementor-element elementor-element-692255d e-con-full e-flex e-con e-child" data-id="692255d"
                 data-element_type="container">
                 <div class="elementor-element elementor-element-a64790c elementor-widget elementor-widget-heading"
                     data-id="a64790c" data-element_type="widget" data-widget_type="heading.default">
@@ -33,18 +20,10 @@
                 <div class="elementor-element elementor-element-a50aabc elementor-widget elementor-widget-heading"
                     data-id="a50aabc" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
-                        <p class="elementor-heading-title elementor-size-default"><?php echo get_field('first_section_main_title');?></p>
+                        <p class="elementor-heading-title elementor-size-default perspective-title"><?php echo get_field('first_section_main_title');?></p>
                     </div>
                 </div>
-                <div class="elementor-element elementor-element-df0e07b elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                    data-id="df0e07b" data-element_type="widget" data-widget_type="divider.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-divider">
-                            <span class="elementor-divider-separator">
-                            </span>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="elementor-element elementor-element-e2ff1d3 elementor-widget elementor-widget-heading"
                     data-id="e2ff1d3" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
@@ -98,141 +77,76 @@
                     </div>
                 </div>
             </div>
+            <div  class="elementor-element elementor-element-0b724c1 elementor-hidden-tablet- elementor-hidden-mobile- e-con-full e-flex e-con e-child"
+                data-id="0b724c1" data-element_type="container">
+                <div class="elementor-element elementor-element-4d27899 elementor-widget elementor-widget-spacer"
+                    data-id="4d27899" data-element_type="widget" data-widget_type="spacer.default">
+                    <div class="elementor-widget-container">
+                        <img src="<?php echo get_field('first_section_image');?>" alt="">
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
     <div class="elementor-element elementor-element-9d39ae9 e-flex e-con-boxed e-con e-parent" data-id="9d39ae9"
-        data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        data-element_type="container">
         <div class="e-con-inner">
-            <div class="elementor-element elementor-element-cfbdcfe e-con-full e-flex e-con e-child" data-id="cfbdcfe"
-                data-element_type="container"
-                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2.5,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                <style>
-                    .elementor-747 .elementor-element.elementor-element-cfbdcfe:not(.elementor-motion-effects-element-type-background), .elementor-747 .elementor-element.elementor-element-cfbdcfe>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-                        background-image: url(<?php echo get_field('value_image');?>);
-                    }
-                </style>
-                <div class="elementor-element elementor-element-216d117 elementor-widget elementor-widget-spacer"
-                    data-id="216d117" data-element_type="widget" data-widget_type="spacer.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="elementor-element elementor-element-2dcce44 e-con-full e-flex e-con e-child" data-id="2dcce44"
-                data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="values-main-container">
                 <div class="elementor-element elementor-element-ad74609 elementor-widget elementor-widget-heading"
                     data-id="ad74609" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
-                        <p class="elementor-heading-title elementor-size-default"><?php echo get_field('value_title');?></p>
+                        <h2 class="elementor-heading-title elementor-size-default values-main-title"><?php echo get_field('value_title');?></h2>
                         <p class="value_description"><?php echo get_field('value_description');?></p>
                     </div>
                 </div>
-                <div class="elementor-element elementor-element-4b31acc elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                    data-id="4b31acc" data-element_type="widget" data-widget_type="divider.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-divider">
-                            <span class="elementor-divider-separator">
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <?php if( have_rows('value_repeater') ): ?>
-                    <?php while( have_rows('value_repeater') ): the_row(); ?>
-                        <div class="elementor-element elementor-element-040d51c elementor-widget elementor-widget-heading"
-                            data-id="040d51c" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default"><?php echo get_sub_field('title'); ?></p>
+                <div class="values-grid-container">
+                    <?php if( have_rows('value_repeater') ): ?>
+                        <?php while( have_rows('value_repeater') ): the_row(); ?>
+                            <div class="value-block">
+                                <div class="value-block-content">
+                                    <h3 class="value-title"><?php echo get_sub_field('title'); ?></h3>
+                                    <p class="value-description"><?php echo get_sub_field('description'); ?></p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="elementor-element elementor-element-0d52fe8 elementor-widget elementor-widget-text-editor"
-                            data-id="0d52fe8" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container"><?php echo get_sub_field('description'); ?> </div>
-                        </div>
-                    <?php endwhile; ?>
-                <?php endif; ?>
-                
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
     </div>
+
+
+
+    
     <div class="ceo-area elementor-element elementor-element-5210127 e-flex e-con-boxed e-con e-parent" data-id="5210127"
         data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-        <div class="pb-0 pb-3 e-con-inner">
-                    <div class="p-0 elementor-element elementor-element-4c270e8 e-con-full e-flex e-con e-child" data-id="4c270e8"
-                        data-element_type="container">
-                        <div class="elementor-element elementor-element-526d6e4 elementor-widget elementor-widget-heading"
-                            data-id="526d6e4" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default"><?php echo get_field('ceo_title');?></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        <div class="pt-0 e-con-inner">
-            <div class="elementor-element elementor-element-4c270e8 e-con-full e-flex e-con e-child" data-id="4c270e8"
-                data-element_type="container">
-                
-                <div class="d-none elementor-element elementor-element-526d6e4 elementor-widget elementor-widget-heading"
-                    data-id="526d6e4" data-element_type="widget" data-widget_type="heading.default">
-                    <div class="elementor-widget-container">
-                        <p class="elementor-heading-title elementor-size-default"><?php echo get_field('ceo_title');?></p>
-                    </div>
-                </div>
-                <div class="d-none elementor-element elementor-element-26c7a95 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                    data-id="26c7a95" data-element_type="widget" data-widget_type="divider.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-divider">
-                            <span class="elementor-divider-separator">
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-element elementor-element-fd80d11 elementor-widget elementor-widget-image"
-                    data-id="fd80d11" data-element_type="widget" data-widget_type="image.default">
-                    <div class="elementor-widget-container">
-                        <img decoding="async" width="720" height="720" src="<?php echo get_field('ceo_image');?>"class="attachment-full size-full wp-image-1168">
-                    </div>
-                </div>
-            </div>
-            <div class="elementor-element elementor-element-d269441 e-con-full e-flex e-con e-child" data-id="d269441"
-                data-element_type="container">
-                <div class="elementor-element elementor-element-dc70157 elementor-widget elementor-widget-text-editor"
-                    data-id="dc70157" data-element_type="widget" >
-                    <div class="elementor-widget-container">
-                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="wpb_text_column wpb_content_element ">
-                                        <div class="wpb_wrapper">
-                                        <?php echo get_field('ceo_middle_text');?>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+             
+        <div class=" e-con-inner">
             <div class="elementor-element elementor-element-bb3f919 e-con-full e-flex e-con e-child" data-id="bb3f919"
                 data-element_type="container">
                 <div class="elementor-element elementor-element-b8e1b97 elementor-widget elementor-widget-text-editor"
                     data-id="b8e1b97" data-element_type="widget" >
                     <div class="elementor-widget-container">
-                        <?php echo get_field('ceo_last_text');?>
+                                <p class="elementor-heading-title elementor-size-default ceo-title"><?php echo get_field('ceo_title');?></p>
+                        <?php echo get_field('ceo_middle_text');?>
                     </div>
                 </div>
 				<?php if(get_field('ceo_sign')){ ?>
-                <div class="elementor-element elementor-element-932efa6 elementor-widget elementor-widget-image"
-                    data-id="932efa6" data-element_type="widget" data-widget_type="image.default">
-                    <div class="elementor-widget-container">
-                        <img loading="lazy" decoding="async" width="768" height="204" src="<?php echo get_field('ceo_sign');?>" class="attachment-full size-full wp-image-815"> </div>
-                </div>
+                    <div class="elementor-element elementor-element-932efa6 elementor-widget elementor-widget-image"
+                        data-id="932efa6" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img loading="lazy" decoding="async" width="768" height="204" src="<?php echo get_field('ceo_sign');?>" class="attachment-full size-full wp-image-815 "> </div>
+                    </div>
 				<?php }; ?>
-                <div class="elementor-element elementor-element-260f341 elementor-widget elementor-widget-text-editor"
-                    data-id="260f341" data-element_type="widget" data-widget_type="text-editor.default">
-                    <div class="elementor-widget-container ceo-info">
-                    <?php echo get_field('ceo_info');?>
+            </div>
+            <div class="elementor-element elementor-element-4c270e8 e-con-full e-flex e-con e-child" data-id="4c270e8"
+                data-element_type="container">
+                <div class="elementor-element elementor-element-fd80d11 elementor-widget elementor-widget-image"
+                    data-id="fd80d11" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container right-div-content">
+                        <img decoding="async" width="720" height="720" src="<?php echo get_field('ceo_image');?>"class="attachment-full size-full wp-image-1168">
+                        <?php echo get_field('ceo_last_text');?>
                     </div>
                 </div>
             </div>

@@ -13,12 +13,7 @@
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c127bf3"
 					data-id="c127bf3" data-element_type="column">
 					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-1598591 elementor-widget elementor-widget-text-editor"
-							data-id="1598591" data-element_type="widget" data-widget_type="text-editor.default">
-							<div class="elementor-widget-container">
-								<p><?php echo get_field('main_title'); ?></p>
-							</div>
-						</div>
+						
 						<div class="elementor-element elementor-element-af33105 elementor-widget elementor-widget-image"
 							data-id="af33105" data-element_type="widget" data-widget_type="image.default">
 							<div class="elementor-widget-container">
@@ -36,6 +31,12 @@
 							data-id="8f280eb" data-element_type="widget"
 							data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
 							data-widget_type="form.default">
+							<div class="elementor-element elementor-element-1598591 elementor-widget elementor-widget-text-editor"
+							data-id="1598591" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container reg-form-title">
+								<p><?php echo get_field('main_title'); ?></p>
+							</div>
+						</div>
 							<div class="elementor-widget-container">
 								<div class="elementor-form"  id="the_card_registration" >
 									<?php echo do_shortcode('[contact-form-7 id="5964343" title="reg form 1"]'); ?>

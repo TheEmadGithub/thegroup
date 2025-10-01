@@ -8,17 +8,6 @@
         <div class="elementor-element elementor-element-0259d85 e-flex e-con-boxed e-con e-parent" data-id="0259d85"
             data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="e-con-inner">
-                <div style="background-image: url(<?php echo get_field('main_image');?>) !important;" class="elementor-element elementor-element-6cc0947 e-con-full e-flex e-con e-child" data-id="6cc0947"
-                    data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-element elementor-element-f5eddcc elementor-widget elementor-widget-spacer"
-                        data-id="f5eddcc" data-element_type="widget" data-widget_type="spacer.default">
-                        <div class="elementor-widget-container">
-                            <div class="elementor-spacer">
-                                <div class="elementor-spacer-inner"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="elementor-element elementor-element-48b61cf e-con-full e-flex e-con e-child" data-id="48b61cf"
                     data-element_type="container">
                     <div class="elementor-element elementor-element-b2b087a elementor-widget elementor-widget-heading"
@@ -43,6 +32,18 @@
                         </div>
                     </div>
                 </div>
+            <div style="background-image: url(<?php echo get_field('main_image');?>) !important;" class="elementor-element elementor-element-6cc0947 e-con-full e-flex e-con e-child" data-id="6cc0947"
+                    data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-element elementor-element-f5eddcc elementor-widget elementor-widget-spacer"
+                        data-id="f5eddcc" data-element_type="widget" data-widget_type="spacer.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                                <div class="elementor-spacer-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
